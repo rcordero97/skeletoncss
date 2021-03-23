@@ -1,12 +1,131 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bitácora | SADIMSA</title>
+    <meta name="author" content="Randy Cordero Vargas">
+    <meta name="description" content="My First Skeleton Design - Web Design Course UNA">
+    <title>My First Skeleton Design - Randy Cordero Vargas</title>
+    <!--CSS –––––––-–––––––––––––––––––––––––––––––––––––––––-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <!--Favicon –––––––––––––––––––––––––––––––––––––––––––––-->
+    <link rel="icon" type="image/png" href="images/favicon.png">
 </head>
 
-<body style="background-color:#ffffff;">
-<p>Primera prueba</p>
+<body >
+    <div class="contenedor">
+        <div class="row" width="100%" style="background-color:#fafafa;">
+            <div class="six columns controlContenido">
+                <h4><img src="images/controlparentalicono.png" style="vertical-align: middle;" width="50px" height="50px"/>Controles de los padres</h4>
+                <h5><svg height="16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M7.5 0C3.37 0 0 3.37 0 7.5S3.37 15 7.5 15 15 11.63 15 7.5 11.63 0 7.5 0zm0 2C10.55 2 13 4.45 13 7.5S10.55 13 7.5 13 2 10.55 2 7.5 4.45 2 7.5 2zm2.965 2.002a.5.5 0 00-.072.008v.008a.5.5 0 00-.25.156L7.486 6.823 5.83 5.174a.5.5 0 10-.687.688l2 2a.5.5 0 00.687 0l3-3a.5.5 0 00-.365-.86z" fill="#666" font-family="sans-serif" font-weight="400" overflow="visible" style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;shape-padding:0;isolation:auto;mix-blend-mode:normal" color="#000"></path></svg>  Tiempo ante pantalla</h5>
+                <h6 class="controlContenidoInterno">Establezca límites de tiempo según el usuario para los días de la semana, fines de semana o ambos.</h6>
+                <h5><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path style="marker:none" overflow="visible" fill="#666" d="M8 0a8 8 0 00-8 8c0 4.418 3.23 7.072 7.012 7.9l.02-.855c-1.113-.113-1.24-.316-2.188-.795.051-.04.125-.094.125-.094l-.063-.125.219-.218.062-.22.344-.093.25-.687-.062-.157.156-.28.406-.095.188-.468-.032-.625.313-.438.031-.437c-.426-.216-.827-.434-1.25-.657l-.219-.437-.375-.094-.218-.562-.5.062-.47-.344-.468.438v.062c-.141-.041-.311-.046-.437-.125l-.094-.312v-.313l-.313.032c.026-.21.068-.447.094-.657h-.187l-.188.25-.187.094-.25-.156-.032-.313.032-.375.406-.28h.312l.063-.188.375.093.281.344.063-.594.5-.406.156-.469.375-.156.219-.281.468-.094.22-.375h-.688l.437-.187h.313l.406-.157.062.407.188-.282-.219-.156.063-.156-.157-.156-.187-.032.062-.187-.156-.281-.312.125.062-.25-.375-.22-.281.532.031.156-.281.125-.188.407-.062-.375-.5-.188-.094-.281.656-.375.282-.281.03-.344-.155-.094h-.063c.228-.158.442-.307.688-.437v.093l-.22.188-.155.375h.312l.094-.25.031-.063c.126-.09.247-.194.375-.28l.313.093c.194.135.368.272.562.406l.313-.281L6 1.969l-.125-.313-.563-.062v-.063c.01-.004.022.004.031 0l.188.063.156-.156.281-.063c.071-.035.148-.065.22-.094L6 1.469l.656.469v.281l-.25.281.344.688.25-.125.281-.469c.42-.132.823-.286 1.219-.469l-.031.188.187.125.344-.25L8.844 2l-.25.125-.032-.031.344-.937-.344-.125a6.89 6.89 0 013.407 1.218l-.282-.062-.343-.125-.5.125-.313.219v.187L10 2.938l.125.5.281-.219.188.219.218.125.125-.375-.062-.219.062-.156.313-.281h.125l-.125.312v.281c.123-.034.249-.046.375-.062l-.344.25-.031.156-.406.344-.407-.094v-.25l-.187.125.094.219h-.313l-.156.281-.188.219-.375.062.22.22.062.218-.248-.033.437.406.217-.123.031-.125.406-.094.219.25.25.125-.156.281.219-.062.125-.281-.282-.313h.125l.25.219.063.312.219.282.062-.407.125-.062c.132.14.232.31.344.469l.437.03.219.157-.094.156-.25.22h-.343l-.47-.157-.218.031-.187.188-.5-.5-.336-.092 3.279 3.277s.168-.136.525-.31v-.22c-.16.021-.311.052-.468.063l.312-.343.438-.313.25-.281v-.281c-.054-.104-.103-.241-.157-.344l-.218.281L14.062 7l-.25-.187v-.375l.282.312.312-.03c.14.129.283.226.406.374l.094-.125c.05.338.094.68.094 1.031-.113 1.124.036 1.155-.479 2.096l.672.79c.698-1.143.794-1.37.807-2.886a8 8 0 00-8-8zm2.258 5.69l-.035-.036.027.033zM4.75 2.219l.281.218h.25v-.25L5 2.062zm-.938.187l-.062.157s-.103.014-.188.03c.081-.066.167-.124.25-.187zm8.438.031c.065.05.124.105.187.157l-.25.28-.343-.374h.343zm-3.031.407v.187l.125.156v.282l-.063.406.313-.063.25-.218-.22-.22a5.832 5.832 0 00-.218-.53zm-.282.406l-.187.062.031.375.281-.156zM8 4.842v10.38l2.344-2.288 1.34 2.734c.328.74 2.033.145 1.548-.844l-1.326-2.838h2.96zm4.594 1.752l.28.343.376.782.219.25-.125.28.218.25c-.09.007-.187 0-.28 0a10.63 10.63 0 01-.438-1.124l-.22-.25-.124-.469zM1.031 7.5c.042.1.219.406.219.406l.531.313.563.156.218.313.375.28.188-.062.156.094v.031l-.187.594-.157.219.032.125-.125.468.468.844.47.438.218.28-.031.657.156.344-.156.687s.002.024 0 .032a7.01 7.01 0 01-2.97-5.72c0-.167.02-.334.032-.5z" color="#bebebe"></path></svg>  Uso de internet</h5>
+                <h6 class="controlContenidoInterno">Gestione las páginas web permitidas. Las reglas afectan a todas las aplicaciones para el usuario, incluso si se utiliza un navegador web diferente.</h6>
+                <h5><svg height="16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 2S2 2 2 2.5v3s0 .5.5.5h3S6 6 6 5.5v-3S6 2 5.5 2zm8 0s-.5 0-.5.5v3s0 .5.5.5h3s.5 0 .5-.5v-3s0-.5-.5-.5zM3 3h2v2H3zm8 0h2v2h-2zm-8.5 7s-.5 0-.5.5v3s0 .5.5.5h3s.5 0 .5-.5v-3s0-.5-.5-.5zm8 0s-.5 0-.5.5v3s0 .5.5.5h3s.5 0 .5-.5v-3s0-.5-.5-.5zM3 11h2v2H3zm8 0h2v2h-2z" fill="#666" overflow="visible" style="marker:none" color="#bebebe"></path></svg>  Gestione las aplicaciones</h5>
+                <h6 class="controlContenidoInterno">Elija qué aplicaciones son seguras para que accedan los más pequeños. Opcionalmente también puede permitir el acceso con su contraseña.</h6>
+            </div>
+            <div class="six columns controlImagen">
+                <img src="images/controlparental.png" class="controlparentalImg"/>
+           </div>
+        </div>
+        <div class="row codigoAbierto">
+            <br>
+            <div class="twelve columns">
+                <h2 style="text-align: center;"><b>Todo lo que hacemos es de <br> código abierto</b></h2> 
+                <h5 style="text-align: center;">Nuestra plataforma consiste totalmente de componentes de código abierto y <br> se basa en una plataforma sólida de programas libres (como GNU/Linux).<br> Además, colaboramos de manera activa con el ecosistema para mejorarlo para<br> todos.</h5>
+                <center><a style="text-align: center;" href="https://elementary.io/open-source">Explore nuestras tecnologías &rarr;</a> </center>
+            </div>
+        </div>
+        <div class="row codigoAbierto2" width="50%">
+            <div class="six columns">
+                <h4 style="text-align: center;">Seguro y respetuoso de la privacidad</h4> 
+                <h6>Como el código fuente está disponible para su revisión, cualquiera (un investigador de seguridad, un usuario preocupado o un fabricante que incluye el sistema en sus equipos) puede verificar que el software es seguro y no filtra información personal.</h6>
+                <center><a style="text-align: center;" href="https://ubuntu.com/security/notices">Avisos de seguridad &rarr;</a> </center>
+            </div>
+            <div class="six columns">
+                <h4 style="text-align: center;">Hecho para los desarrolladores</h4> 
+                <h6>Tiene acceso completo a nuestro código fuente por si quiere añadir una funcionalidad para complementar su aplicación o si tiene curiosidad por ver cómo funciona una prestación o una pauta de diseño. Cópielo, aprenda de él, remézclelo, modifíquelo y redistribúyalo.</h6>
+                <center><a style="text-align: center;" href="https://elementary.io/get-involved#desktop-development">Participar &rarr;</a> </center>
+            </div>
+        </div>
+
+        <div class="row" width="100%" style="background-color:#fafafa;">
+            <div class="eight columns controlContenido">
+                <img src="images/teclado.png" class="tecladoImagen" />
+           </div>
+            <div class="four columns tecladoTexto">
+                <h3><b>Fáciles de usar. Ideales para un uso eficiente del teclado.</b></h4>
+                <h5>elementary OS está diseñado para que sea fácil de entender y de usar para el nuevo usuario. Esto no quiere decir que sea limitado; los potentes y personalizables atajos de teclado garantizan mantenerse productivo, ya sea el primer o el enésimo día que usa elementary.</h6>
+            </div>
+        </div>
+
+        <div class="row privacidad"  style="background-color:#273445;">
+            <br>
+            <div class="twelve columns">
+                <h2 style="text-align: center; color:#FFFFFF"><b>Respeto por la privacidad. En<br> todos los ámbitos.</b></h2> 
+                <h5 style="text-align: center; color:#FFFFFF">Sus datos le pertenecen exclusivamente a usted. No hacemos ofertas de<br> publicidad ni recopilamos datos personales. Nos financiamos directamente<br> gracias a nuestros usuarios, que pagan lo que desean por elementary OS y<br> por las aplicaciones del Centro de aplicaciones. Así es como se debe hacer.</h5>
+                <center><a style="text-align: center;" href="https://elementary.io/open-source">Nuestra normativa de privacidad &rarr;</a> </center>
+            </div>
+        </div>
+        <div class="row privacidad2" width="70%" style="background-color:#273445;">
+            <div class="four columns">
+                <h5 style="text-align: center; color:#FFFFFF"><svg style="color:#FFFFFF" height="16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M8 1c-1.108 0-2 .892-2 2v6c0 1.108.892 2 2 2s2-.892 2-2V3c0-1.108-.892-2-2-2zM3 6v1h1v2a3.981 3.981 0 003 3.861V15H6v1h4v-1H9v-2.139A3.981 3.981 0 0012 9V7h1V6h-2v3c0 1.662-1.338 3-3 3s-3-1.338-3-3V6z" fill="#666" overflow="visible" style="isolation:auto;mix-blend-mode:normal;marker:none" color="#bebebe"></path></svg>  Sin escuchas</h5> 
+                <h6 style="color:#FFFFFF">elementary OS le a ayuda a controlar el<br> funcionamiento de las aplicaciones. Cuando una<br> aplicación use el micrófono, se muestra un<br> indicador para informar acerca de ello. Cuando<br> una aplicación utilice demasiada energía, el<br> indicador de energía lo marcará.</h6>
+            </div>
+            <div class="four columns">
+                <h5 style="text-align: center; color:#FFFFFF"><svg style="color:#FFFFFF" height="16" width="15.974" xmlns="http://www.w3.org/2000/svg"><path color="#000" d="M7.987 15V8h-7l14-7z" fill="#666" overflow="visible" style="marker:none"></path></svg>  Servicios de ubicación</h5> 
+                <h6 style="color:#FFFFFF">Cuando una aplicación quiera acceder a su<br> ubicación, tiene que pedirlo. Se muestra un<br> mensaje que indica qué aplicación y la precisión<br> que solicita. Siempre se puede revocar el<br> acceso en Configuración del sistema ▸<br> Seguridad y privacidad.</h6>
+            </div>
+            <div class="four columns">
+                <h5 style="text-align: center; color:#FFFFFF"><svg style="color:#FFFFFF" height="16" width="16" xmlns="http://www.w3.org/2000/svg"><path color="#000" d="M11.098.045c-.558-.041-.89.442-1.114.879L6.912 6.139c-.613-.365-1.204-.77-1.832-1.109-.526-.32-1.34.012-1.376.646l-.014.763 6.02 3.522c.36-.139.817-.192.956-.626.25-.57-.223-1.09-.712-1.318l-1.339-.828c1.119-1.902 2.243-3.801 3.357-5.706.328-.63-.164-1.44-.874-1.438zM3.024 7.203c-1.428.55-2.304 2.203-1.927 3.692.322 1.522 1.776 2.504 3.218 2.821 1.826.418 3.828.25 5.685.284h.76c-.987-.154-2.12-.552-2.53-1.547-.283-.68.152-1.53.868-1.697L3.024 7.203z" fill="#666" font-family="sans-serif" font-weight="400" overflow="visible" style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#FFF;text-transform:none;text-orientation:mixed;shape-padding:0;isolation:auto;mix-blend-mode:normal;marker:none"></path></svg>  Mantenimiento</h5> 
+                <h6 style="color:#FFFFFF">elementary OS puede mantener en orden los<br> archivos temporales y los eliminados. Esto no<br> solo conserva libre el almacenamiento de su<br> ordenador, sino que ayuda a garantizar que los<br> datos privados no vuelvan a ser molestos.</h6>
+            </div>
+        </div>
+
+        <div class="row" width="100%" style="background-color:#FFFFFF;">
+            <div class="six columns controlContenido">
+                <img src="images/aplicacion.png" class="imagenAplicacion" />
+           </div>
+            <div class="six columns tecladoTexto">
+                <h4>Tres modos de exploración</h4>
+                <h5><svg height="16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 2S2 2 2 2.5v3s0 .5.5.5h3S6 6 6 5.5v-3S6 2 5.5 2zm8 0s-.5 0-.5.5v3s0 .5.5.5h3s.5 0 .5-.5v-3s0-.5-.5-.5zM3 3h2v2H3zm8 0h2v2h-2zm-8.5 7s-.5 0-.5.5v3s0 .5.5.5h3s.5 0 .5-.5v-3s0-.5-.5-.5zm8 0s-.5 0-.5.5v3s0 .5.5.5h3s.5 0 .5-.5v-3s0-.5-.5-.5zM3 11h2v2H3zm8 0h2v2h-2z" fill="#666" overflow="visible" style="marker:none" color="#bebebe"></path></svg>  Cuadrícula</h5>
+                <h6 class="controlContenidoInterno">Navegue por sus aplicaciones y encuentre la que busca en la <br> cuadrícula alfabetizada.</h6>
+                <h5><svg height="16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M7 2v12h1V2zM1 3v1h4V3zm9.5 0s-.5 0-.5.5v3s0 .5.5.5h3s.5 0 .5-.5v-3s0-.5-.5-.5zm.5 1h2v2h-2zM1 6v1h4V6zm0 3v1h4V9zm9.5 0s-.5 0-.5.5v3s0 .5.5.5h3s.5 0 .5-.5v-3s0-.5-.5-.5zm.5 1h2v2h-2zM1 12v1h4v-1z" fill="#666" overflow="visible" style="marker:none" color="#bebebe"></path></svg>  Categorías</h5>
+                <h6 class="controlContenidoInterno">Vea las aplicaciones organizadas por categorías: algo perfecto para<br> grandes colecciones de aplicaciones.</h6>
+                <h5><svg height="16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M6.5 1C3.474 1 1 3.474 1 6.5S3.474 12 6.5 12a5.46 5.46 0 003.112-.975l3.681 3.682a1 1 0 101.414-1.414l-3.681-3.682A5.46 5.46 0 0012 6.5C12 3.474 9.526 1 6.5 1zm0 1.25a4.25 4.25 0 014.25 4.25 4.25 4.25 0 01-4.25 4.25A4.25 4.25 0 012.25 6.5 4.25 4.25 0 016.5 2.25z" fill="#666" font-family="sans-serif" font-weight="400" overflow="visible" style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;shape-padding:0;isolation:auto;mix-blend-mode:normal" color="#000"></path></svg>  Búsqueda</h5>
+                <h6 class="controlContenidoInterno">Abra aplicaciones y paneles de configuración, ejecute órdenes…<br> todo ello y mucho más mediante la vista de búsqueda ultrarrápida.</h6>
+            </div>
+        </div>
+
+        <div class="row productividad"  style="background-color:#fafafa;">
+            <br>
+            <div class="twelve columns">
+                <h2 style="text-align: center; "><b>Productividad y diversión al <br> máximo</b></h2> 
+                <h5 style="text-align: center; ">Eleve su productividad y concentración con la vista multitarea, el modo<br> minipantalla y la función No molestar. O elimine toda notificación del trabajo<br> mientras ve vídeos o juega.</h5>
+            </div>
+        </div>
+        <div class="row productividad2" width="90%" style="background-color:#fafafa;">
+            <div class="four columns">
+                <center><img src="images/productividad1.png" alt=""></center>
+                <h5 style="text-align: center;">Vista multitarea</h5> 
+                <h6>Las áreas de trabajo le ayudan a organizar sus pendientes. Mantenga el trabajo y el ocio separados, pero accesibles con solo una pulsación.</h6>
+            </div>
+            <div class="four columns">
+                <center><img src="images/productividad2.png" alt=""></center>
+                <h5 style="text-align: center;">Modo minipantalla</h5> 
+                <h6>Trátese de una película, un juego o un proceso del terminal, el modo minipantalla le permite estar al tanto de una cosa mientras trabaja en otra.</h6>
+            </div>
+            <div class="four columns">
+                <center><img src="images/productividad3.png" alt=""></center>
+                <h5 style="text-align: center;">No molestar</h5> 
+                <h6>Apártelo todo y conserve su concentración en el trabajo, o mantenga a raya todas las notificaciones mientras mira una película. El modo No molestar interrumpe la emisión de notificaciones.</h6>
+            </div>
+        </div>
+
+    </div>
 </body>
+
 </html>

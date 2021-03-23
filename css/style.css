@@ -1,0 +1,62 @@
+.controlContenido {
+    padding-left: 5%;
+    padding-top: 6%;
+    padding-bottom: 4%;
+}
+.controlContenido .controlContenidoInterno {
+    padding-left: 4%;
+}
+
+.controlImagen {
+    padding-top: 4%;
+    padding-bottom: 4%;
+    width: 50%;
+    vertical-align: middle;
+}
+.tecladoImagen {
+    padding-top: 4%;
+    padding-bottom: 4%;
+
+}
+.tecladoTexto {
+    padding-top: 10%;
+    padding-bottom: 4%;
+    padding-right: 5%;
+    vertical-align: middle;
+}
+
+.codigoAbierto {
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 4%;
+}
+.codigoAbierto2 {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 4%;
+}
+.privacidad {
+    padding-left: 5%;
+    padding-top: 10%;
+    padding-bottom: 4%;
+}
+.privacidad2 {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 4%;
+}
+.productividad {
+    padding-left: 5%;
+    padding-top: 3%;
+    padding-bottom: 4%;
+}
+.productividad2 {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 4%;
+}
+
+.imagenAplicacion{
+    padding-left: 10%;
+
+}
